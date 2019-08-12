@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\ProjectTrade.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{B723798B-FB2E-4296-BA7C-B832E3BA2B8A}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\ProjectTrade.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\ProjectTradeEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <Filter Include="Config">
+      <UniqueIdentifier>{03CF023B-E313-43CE-8C5D-DA78D9ACAB9C}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source\ProjectTrade">
+      <UniqueIdentifier>{1EE545AF-029A-4F4F-A608-6435593BBF00}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\ProjectTrade\ProjectTrade.Build.cs">
+      <Filter>Source\ProjectTrade</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\ProjectTrade\ProjectTrade.cpp">
+      <Filter>Source\ProjectTrade</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ProjectTrade\ProjectTrade.h">
+      <Filter>Source\ProjectTrade</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\ProjectTrade\ProjectTradeGameModeBase.cpp">
+      <Filter>Source\ProjectTrade</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ProjectTrade\ProjectTradeGameModeBase.h">
+      <Filter>Source\ProjectTrade</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source\ProjectTrade\BaseObject">
+      <UniqueIdentifier>{9e31682a-1a10-4713-9bb7-acc3c167b875}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\Source\ProjectTrade\BaseObject\BaseOBject.h">
+      <Filter>Source\ProjectTrade\BaseObject</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\Source\ProjectTrade\BaseObject\BaseOBject.cpp">
+      <Filter>Source\ProjectTrade\BaseObject</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
